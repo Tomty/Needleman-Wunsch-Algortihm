@@ -184,8 +184,3 @@ class NeedlemanWunsh:
 					line.append(int(item))
 
 				self.subMatrix.append(line)
-
-
-
-NeedlemanWunsh("seq.txt", "pam250.tab", -6)
-
